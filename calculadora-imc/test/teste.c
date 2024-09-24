@@ -9,7 +9,7 @@ MU_TEST(test_calculo_normal) {
     mu_assert_double_eq(50, imc); // O IMC esperado é 50
 }
 
-// Teste 2: Verifica se o tratamento para peso zero está funcionando
+// Teste 2: Verifica se o tratamento para peso zero está funcionando perfeitamente!
 MU_TEST(test_peso_zero) {
     double imc = calculo(0, 1.75);
     mu_assert_double_eq(-1, imc); // Espera-se -1 como retorno para peso inválido
